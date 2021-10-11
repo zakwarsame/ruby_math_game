@@ -20,7 +20,6 @@ class Game
         @p2 = p2
     end
 
-    
     include Question
 
 
