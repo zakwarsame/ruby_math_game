@@ -27,7 +27,7 @@ module Question
     "What does ${}"
 end
 
-# when creating an instance, a player gets a name, a default 3 lives, a dead method, 
+# when creating an instance, a player gets a name, a default 3 lives, a dead method, a losing life method
 
 # a game takes in 2 players, will include a question, method to check if they answered correctly or not, method that will switch turns between players, 
 
