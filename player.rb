@@ -1,6 +1,6 @@
 module Question
     def generate_question(player)
-        puts "#{player} What is #{self.first_digit} + #{self.second_digit}?"
+        puts "#{player}: What is #{self.first_digit} + #{self.second_digit}?"
     end
     def correct?(input)
         input == self.sum 
@@ -44,6 +44,6 @@ class Player
     end
 end
 
-player1 = Player.new('player')
+# player1 = Player.new('player')
 
-player1.start_question
+# player1.start_question
